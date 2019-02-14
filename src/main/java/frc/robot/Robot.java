@@ -75,7 +75,7 @@ public class Robot extends TimedRobot {
 
   @Override
   public void teleopPeriodic() {
-    drive.tankDrive(driver.getRawAxis(1), driver.getRawAxis(3));
+    drive.arcadeDrive(driver.getRawAxis(1), driver.getRawAxis(2));
     //42 to one
   }
 
